@@ -1,5 +1,6 @@
-@import "fontawesome/fontawesome.scss";
-@import "fontawesome/solid.scss";
+@import "./fontawesome.scss";
+@import "./solid.scss";
+@import "./regular.scss";
 
 .slider .btn {
   margin-top: 20px;
@@ -12,4 +13,12 @@
     width: 90% !important;
     border: #f4f4f4 3px solid !important;
   }
+}
+
+.autocomplete-content {
+  position: absolute;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
 }
