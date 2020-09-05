@@ -34,7 +34,7 @@
       </div>
     </nav>
   </div>
-
+  <!-- SIDENAV -->
   <ul id="mobile-nav" class="sidenav">
     <li><a href="#home">Home</a></li>
     <li><a href="#search">Search</a></li>
@@ -43,7 +43,38 @@
     <li><a href="#contact">Contact</a></li>
   </ul>
 
-
+  <!-- Section: Slider -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/resort1.jpg" alt="">
+        <div class="caption center-align">
+          <h2>Take Your Dream Vacation</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nisi est ad et consectetur eligendi odio.</h5>
+          <a href="#" class="btn btn-large">Learn More</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort2.jpg" alt="">
+        <div class="caption left-align">
+          <h2>We Work With All Budgets</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nisi est ad et consectetur eligendi odio.</h5>
+          <a href="#" class="btn btn-large">Learn More</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort3.jpg" alt="">
+        <div class="caption right-align">
+          <h2>Group & Individual Gateways</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nisi est ad et consectetur eligendi odio.</h5>
+          <a href="#" class="btn btn-large">Learn More</a>
+        </div>
+      </li>
+    </ul>
+  </section>
 
   <!-- SCRIPTS -->
   <script src="js/jquery-3.5.1.min.js"></script>
@@ -54,6 +85,13 @@
       // Custom JS & jQuery here
       $('.sidenav').sidenav();
 
+      // Init Slider
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
 
     });
   </script>
