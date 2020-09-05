@@ -15,11 +15,33 @@
 </head>
 
 <body>
-
-  <div class="container">
-    <h1 class="red-text">TEST</h1>
-    <i class="fas fa-address-book fa-4x red-text"></i>
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">Travelville</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#popular">Popular Places</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
+
+  <ul id="mobile-nav" class="sidenav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#popular">Popular Places</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 
 
 
@@ -30,6 +52,8 @@
   <script>
     $(document).ready(function () {
       // Custom JS & jQuery here
+      $('.sidenav').sidenav();
+
 
     });
   </script>
