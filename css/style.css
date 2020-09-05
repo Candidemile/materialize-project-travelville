@@ -6039,4 +6039,15 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+.slider .btn {
+  margin-top: 20px;
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
 /*# sourceMappingURL=style.css.map */
